@@ -556,8 +556,8 @@ textarea {
   }
 
   #the-object .full-bleed-img {
-    transform: translateX(-20px);
-    width: calc(100% + 20px);
+    transform: translateX(-40px);
+    width: calc(100% + 40px);
     max-width: none;
   }
 
