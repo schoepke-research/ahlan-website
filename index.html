@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ahlan Coffee Ritual</title>
+  <meta name="description" content="The world's best coffee, untethered from place or time. Premium coffee concentrate for ultra-luxury hospitality venues and airline cabins.">
+  <meta property="og:title" content="Ahlan Coffee Ritual">
+  <meta property="og:description" content="The world's best coffee, untethered from place or time.">
+  <meta property="og:image" content="public/section3.png">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <nav id="nav">
+    <a href="#" class="nav-logo">
+      <span class="nav-logo-text">Ahlan Coffee</span>
+    </a>
+    <a href="#enquire" class="nav-enquire">Enquire</a>
+  </nav>
+
+  <!-- 1. Hero -->
+  <section id="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-image-wrap">
+      <img src="public/section3.png" alt="">
+    </div>
+    <div class="hero-content">
+      <h1>The world's best coffee,<br>untethered from place or time.</h1>
+    </div>
+  </section>
+
+  <!-- 2. Statement -->
+  <section id="statement">
+    <div class="statement-inner">
+      <p class="statement-lead">The world's best coffee has always needed the world's best café.</p>
+      <p class="statement-pivot"><em>Ahlan has changed that.</em></p>
+      <p class="statement-body">Ahlan Coffee is brewed under precise conditions and sealed at peak — before it ever reaches the room. Hot water is the only requirement. The standard does not change with altitude, staffing or location.</p>
+    </div>
+  </section>
+
+  <!-- 3. The Object -->
+  <section id="the-object">
+    <img src="public/section3.png" alt="Ahlan Coffee — the ritual in progress" class="full-bleed-img">
+  </section>
+
+  <!-- 4. The Ritual -->
+  <section id="the-ritual">
+    <p class="ritual-caption">Two steps.</p>
+    <div class="ritual-image-container">
+      <!-- Replace src with the ritual diagram image when available -->
+      <div class="ritual-placeholder">
+        <div class="ritual-placeholder-step">
+          <div class="ritual-step-circle">1</div>
+          <p>Pour the vial.</p>
+        </div>
+        <div class="ritual-divider"></div>
+        <div class="ritual-placeholder-step">
+          <div class="ritual-step-circle">2</div>
+          <p>Fill to the line.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. The Contexts -->
+  <section id="the-contexts">
+    <div class="contexts-grid">
+      <!-- Replace these placeholder divs with actual context images -->
+      <div class="context-image context-suite"></div>
+      <div class="context-image context-cabin"></div>
+      <div class="context-image context-boardroom"></div>
+    </div>
+    <p class="contexts-caption">Wherever excellence is expected.</p>
+  </section>
+
+  <!-- 6. The Video -->
+  <section id="the-video">
+    <div class="video-wrap">
+      <!-- Replace with actual video source when available -->
+      <video autoplay muted loop playsinline poster="public/section3.png">
+        <source src="/public/ritual-loop.mp4" type="video/mp4">
+      </video>
+    </div>
+    <p class="video-caption">The ritual, complete.</p>
+  </section>
+
+  <!-- 7. Enquire -->
+  <section id="enquire">
+    <h2 class="enquire-heading">Begin a conversation.</h2>
+    <div class="enquire-grid">
+
+      <div class="enquire-col">
+        <p class="enquire-label">Stay informed</p>
+        <form id="newsletter-form" novalidate>
+          <div class="field-group">
+            <input type="email" name="email" placeholder="Your email address" autocomplete="email" required>
+          </div>
+          <button type="submit" class="form-btn">
+            <span class="btn-text">Subscribe</span>
+          </button>
+          <p class="form-message" id="newsletter-msg" aria-live="polite"></p>
+        </form>
+      </div>
+
+      <div class="enquire-col">
+        <p class="enquire-label">For enquiries and partnerships.</p>
+        <form id="contact-form" novalidate>
+          <div class="field-group">
+            <input type="text" name="name" placeholder="Your name" autocomplete="name" required>
+          </div>
+          <div class="field-group">
+            <input type="email" name="email" placeholder="Your email address" autocomplete="email" required>
+          </div>
+          <div class="field-group">
+            <textarea name="message" placeholder="Your message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="form-btn">
+            <span class="btn-text">Send</span>
+          </button>
+          <p class="form-message" id="contact-msg" aria-live="polite"></p>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <footer id="footer">
+    <p>Ahlan Coffee Ritual &middot; Dubai, UAE &middot; &copy; 2026</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
