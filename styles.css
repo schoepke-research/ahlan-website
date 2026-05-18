@@ -265,6 +265,21 @@ a {
   display: block;
 }
 
+/* ─── Bridge ─────────────────────────────────────────────────────────────────── */
+#the-bridge {
+  background: var(--cream);
+  padding: var(--section-pad) 2rem;
+  text-align: center;
+}
+
+.bridge-caption {
+  font-size: clamp(1.4rem, 2vw, 1.85rem);
+  font-weight: 300;
+  font-style: italic;
+  color: var(--dark);
+  letter-spacing: 0.02em;
+}
+
 /* ─── The Contexts ───────────────────────────────────────────────────────────── */
 #the-contexts {
   background: var(--cream);
