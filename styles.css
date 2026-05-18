@@ -532,11 +532,23 @@ textarea {
   }
 
   #the-object .full-bleed-img {
-    height: 70vw;
+    height: 63vw;
     object-fit: cover;
     object-position: 60% center;
   }
 
+  #the-ritual {
+    overflow: hidden;
+  }
+
+  .ritual-annotated {
+    transform: scale(1.1);
+    transform-origin: top center;
+  }
+
+  .ritual-annotation-mobile line {
+    stroke-width: 4;
+  }
 
   #footer {
     padding: 0 1.5rem 3rem;
