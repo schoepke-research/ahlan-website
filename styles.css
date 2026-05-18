@@ -360,9 +360,9 @@ a {
 
 .enquire-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 5rem;
-  max-width: 900px;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 4rem;
+  max-width: 1100px;
 }
 
 .enquire-label {
@@ -374,25 +374,11 @@ a {
   margin-bottom: 2rem;
 }
 
-.enquire-or {
-  margin-top: 5rem;
-  text-align: center;
-}
-
-.enquire-or-label {
-  font-size: 0.78rem;
-  font-weight: 400;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-  color: var(--muted);
-  margin-bottom: 0.75rem;
-}
-
 .enquire-email {
   display: inline-block;
   font-family: var(--font-display);
   font-weight: 300;
-  font-size: 1.5rem;
+  font-size: 1.15rem;
   color: var(--dark);
   letter-spacing: 0.02em;
   transition: color 0.2s ease;
@@ -537,7 +523,7 @@ textarea {
 
   .enquire-grid {
     grid-template-columns: 1fr;
-    gap: 4rem;
+    gap: 3.5rem;
   }
 
   #enquire {
