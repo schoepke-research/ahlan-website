@@ -551,16 +551,6 @@ textarea {
     aspect-ratio: 4 / 3;
   }
 
-  #the-object {
-    overflow: hidden;
-  }
-
-  #the-object .full-bleed-img {
-    transform: translateX(-80px);
-    width: calc(100% + 80px);
-    max-width: none;
-  }
-
   .ritual-placeholder {
     flex-direction: column;
     gap: 2.5rem;
