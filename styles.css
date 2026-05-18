@@ -280,7 +280,15 @@ a {
 .context-image {
   aspect-ratio: 3 / 4;
   background: var(--dark);
-  opacity: 0.08;
+  overflow: hidden;
+}
+
+.context-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  opacity: 1;
 }
 
 .contexts-caption {
