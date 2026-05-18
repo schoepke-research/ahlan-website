@@ -374,6 +374,21 @@ a {
   margin-bottom: 2rem;
 }
 
+.enquire-email {
+  display: inline-block;
+  font-family: var(--font-display);
+  font-weight: 300;
+  font-size: 0.95rem;
+  color: var(--muted);
+  letter-spacing: 0.02em;
+  margin-bottom: 2rem;
+  transition: color 0.2s ease;
+}
+
+.enquire-email:hover {
+  color: var(--gold);
+}
+
 .field-group {
   margin-bottom: 1.5rem;
 }
