@@ -238,44 +238,24 @@ a {
   max-width: 760px;
 }
 
-/* Placeholder shown until actual ritual image + SVG overlay is added */
-.ritual-placeholder {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 4rem;
-  padding: 5rem 2rem;
-  border: 1px solid rgba(26, 26, 21, 0.1);
+.ritual-annotated {
+  position: relative;
+  width: 100%;
 }
 
-.ritual-placeholder-step {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1.5rem;
-  text-align: center;
+.ritual-annotated img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
-.ritual-step-circle {
-  width: 48px;
-  height: 48px;
-  border-radius: 50%;
-  border: 1px solid var(--gold);
-  color: var(--gold);
-  font-family: var(--font-display);
-  font-weight: 300;
-  font-size: 1.2rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.ritual-placeholder-step p {
-  font-size: 0.95rem;
-  font-weight: 300;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: var(--muted);
+.ritual-annotation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
 }
 
 .ritual-divider {
@@ -557,14 +537,8 @@ textarea {
     object-position: 60% center;
   }
 
-  .ritual-placeholder {
-    flex-direction: column;
-    gap: 2.5rem;
-  }
-
-  .ritual-divider {
-    width: 1px;
-    height: 40px;
+  .ritual-annotation {
+    display: none;
   }
 
   #footer {
