@@ -48,7 +48,7 @@ module.exports = async function handler(req, res) {
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({
-        from: 'Ahlan Coffee <onboarding@resend.dev>',
+        from: 'Ahlan Coffee <hello@ahlancoffee.com>',
         to: ['hello@ahlancoffee.com'],
         reply_to: email,
         subject: `New enquiry from ${name}`,
