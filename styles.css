@@ -533,6 +533,10 @@ textarea {
     font-size: 1.75rem;
   }
 
+  .statement-lead br {
+    display: none;
+  }
+
   .enquire-grid {
     grid-template-columns: 1fr;
     gap: 3.5rem;
